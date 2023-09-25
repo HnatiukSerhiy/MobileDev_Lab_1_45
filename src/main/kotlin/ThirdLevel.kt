@@ -1,3 +1,4 @@
+// Рішення третього рівня
 class ThirdLevel {
     fun rotateFirstAndLastDigits(number: Int): Int {
         val string = StringBuilder(number.toString())

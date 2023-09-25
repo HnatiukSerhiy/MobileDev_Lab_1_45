@@ -1,6 +1,8 @@
 import kotlin.math.cos
 import kotlin.math.sin
 
+// Рішення першого рівня
+
 class FirstLevel {
     fun getAngleInfo(angleInDegrees: Double): String {
         val trigonometricInfo = getTrigonometricFunctionsInfo(angleInDegrees)

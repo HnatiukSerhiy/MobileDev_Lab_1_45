@@ -1,3 +1,4 @@
+// Рішення другого рівня
 class SecondLevel {
     fun getCountOfThreeDigitNumbers(numbers: Array<Int>): Int {
         return numbers.filter { num -> isThreeDigitNumber(num) }.size
