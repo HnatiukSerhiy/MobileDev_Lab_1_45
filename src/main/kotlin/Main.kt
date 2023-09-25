@@ -1,7 +1,7 @@
 fun main(args: Array<String>) {
-    println("Hello World!")
+    val lvl = ThirdLevel()
+    val rotated = lvl.rotateFirstAndLastDigits(1345)
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+    println(rotated)
+    println("Hello World!")
 }
